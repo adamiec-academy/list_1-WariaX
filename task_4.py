@@ -7,7 +7,7 @@ def snowman (n):
                 x = i - promien
                 y = j - promien
                 if x * x + y * y <= promien * promien + 1:
-                    print('*', end='  ')
+                    print('#', end='  ')
                     
                 else:
                     print(' ', end='  ')
@@ -21,7 +21,7 @@ def snowman (n):
                 x = i - promien2
                 y = j - promien2
                 if x * x + y * y <= promien2 * promien2 + 1:
-                    print('*', end='  ')
+                    print('#', end='  ')
                     
                 else:
                     print(' ', end='  ')
@@ -35,7 +35,7 @@ def snowman (n):
                 x = i - promien3
                 y = j - promien3
                 if x * x + y * y <= promien3 * promien3 + 1:
-                    print('*', end='  ')
+                    print('#', end='  ')
                     
                 else:
                     print(' ', end='  ')
