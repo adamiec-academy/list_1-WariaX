@@ -1,7 +1,7 @@
 def snowball(n, k):
         promien = (n / 2) - 0.5
         for i in range(n):
-            print(2 * k * " ", end="")
+            print(k * " ", end="")
             for j in range(n):
                 x = i - promien
                 y = j - promien
