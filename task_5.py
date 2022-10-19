@@ -1,11 +1,17 @@
 def factorial(n):
-    s = 1
+    factorial = 1
     for i in range(1, n+1):
-        s *= i
-    print(s)
-
-factorial(100)
+        factorial *= i
+    return factorial
 
 
-def report():
-    pass
+
+def report(n):
+    
+    for i in range(1, n+1): 
+        a = len(str(factorial(i)))
+        print(f"{i : >4}! is {a: >3} digits long")
+        
+
+
+report(100) 
