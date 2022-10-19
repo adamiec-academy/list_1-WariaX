@@ -17,5 +17,5 @@ def snowball(n, k):
 snowball(7, 2)   
 
 
-def snowman(n)
+def snowman(n):
     pass
