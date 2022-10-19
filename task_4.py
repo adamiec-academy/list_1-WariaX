@@ -6,10 +6,10 @@ def snowball(n, k):
                 x = i - promien
                 y = j - promien
                 if x * x + y * y <= promien * promien + 1:
-                    print('#', end='  ')
+                    print('#', end='')
                     
                 else:
-                    print(' ', end='  ')
+                    print(' ', end='')
             
             print()
 
