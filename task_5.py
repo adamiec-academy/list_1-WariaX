@@ -6,12 +6,12 @@ def factorial(n):
 
 
 
-def report(n):
+def report():
     
-    for i in range(1, n+1): 
+    for i in range(1, 101): 
         a = len(str(factorial(i)))
         print(f"{i : >3}! is {a: >3} digits long")
         
 
 
-report(100) 
+report() 
