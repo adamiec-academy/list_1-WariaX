@@ -1,11 +1,9 @@
 def snowball(n, k):
-        promien = (n / 2) - 0.5
-        for i in range(n):
+        r = (n/2)
+        for x in range(n):
             print(k * " ", end="")
-            for j in range(n):
-                x = i - promien
-                y = j - promien
-                if x * x + y * y <= promien * promien + 1:
+            for y in range(n):                
+                if (x + 0.5 - r)**2 + (y + 0.5 - r)**2 <= r**2:
                     print('#', end='')                    
                 else:
                     print(' ', end='')
