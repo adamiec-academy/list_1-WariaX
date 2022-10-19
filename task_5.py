@@ -8,7 +8,7 @@ def factorial(n):
 
 def report():
     
-    for i in range(1, 101): 
+    for i in range(0, 101): 
         a = len(str(factorial(i)))
         print(f"{i : >3}! is {a: >3} digits long")
         
