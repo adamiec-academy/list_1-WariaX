@@ -10,7 +10,7 @@ def report(n):
     
     for i in range(1, n+1): 
         a = len(str(factorial(i)))
-        print(f"{i : >4}! is {a: >3} digits long")
+        print(f"{i : >3}! is {a: >3} digits long")
         
 
 
